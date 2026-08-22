@@ -1,8 +1,8 @@
 # Nigerian Language Identifier
 
 A text classifier that identifies whether a piece of text is **English**,
-**Hausa**, **Igbo**, or **Yoruba**. Built as a capstone project for a
-government-run AI/ML training program.
+**Hausa**, **Igbo**, or **Yoruba**. Built as a capstone project under 3MTT Next Gen Cohort
+in the AI/ML learning training program.
 
 ## Overview
 
@@ -62,3 +62,5 @@ The Linear SVM was the best-performing model on the held-out test set.
 See the notebook for full classification reports and confusion matrices.
 The Linear SVM was the best-performing model on the held-out test set.
 
+## Limitations
+App still needs to be fine-tuned and trained on more data to work efficiently.
