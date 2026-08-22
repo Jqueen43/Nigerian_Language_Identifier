@@ -55,7 +55,7 @@ def clean_text(text: str) -> str:
 @st.cache_resource(show_spinner=False)
 def load_artifacts(model_file, vectorizer_file):
     model = joblib.load("linear_svm_model.joblib")
-    vectorizer = joblib.load("tfidf_vectorizer.joblib)
+    vectorizer = joblib.load("tfidf_vectorizer.joblib")
     return model, vectorizer
 
 
