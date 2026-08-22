@@ -23,6 +23,7 @@ government-run AI/ML training program.
 | File | Description |
 |---|---|
 | `nigerian_language_identifier.ipynb` | Full notebook: data loading, cleaning, EDA, feature engineering, model training/evaluation |
+| `README.md` | Project overview and steps taken to execute the project |
 | `app.py` | Streamlit demo app for interactive and batch predictions |
 | `requirements.txt` | Python dependencies for the app |
 | `balanced_multilingual_dataset.csv` | Combined dataset (5,000 samples per language) merging NaijaVoices Hausa/Igbo/Yoruba text with sampled English sentences, before final cleaning |
