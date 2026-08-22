@@ -4,6 +4,8 @@ A text classifier that identifies whether a piece of text is **English**,
 **Hausa**, **Igbo**, or **Yoruba**. Built as a capstone project under 3MTT Next Gen Cohort
 in the AI/ML learning training program.
 
+Most NLP tooling is English-centric; Nigeria is a unique country with over 500 languages and this is worth exploring.
+
 ## Overview
 
 - **Data**: [NaijaVoices dataset](https://huggingface.co/datasets/naijavoices/naijavoices-dataset-compressed)
@@ -62,5 +64,7 @@ The Linear SVM was the best-performing model on the held-out test set.
 See the notebook for full classification reports and confusion matrices.
 The Linear SVM was the best-performing model on the held-out test set.
 
+Live Demo link: https://nigerianlanguageidentifier-ubj5gbgpktxnjjwqscvlry.streamlit.app/
+
 ## Limitations
-App still needs to be fine-tuned and trained on more data to work efficiently.
+I experienced struggles with short text or mixed-language input, english text being longer that the other languages text. Ther is room to improve with more data or deep learning models. This model still needs to be fine-tuned and trained on more data to work efficiently.
